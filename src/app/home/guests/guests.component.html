@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-10 mx-auto">
+            <p>TESTIMONY</p>
+            <h3>Our happy guests says</h3>
+            <div *ngFor="let g of guests" class=" my-4">
+                <div class="col-3 mx-auto my-2">
+                    <img class="rounded-circle" src="../../../assets/images/{{g.img}}" alt="">
+                </div>
+                <div class="rate col-3 mx-auto my-2">
+                    <i *ngFor="let i of numbers" [ngClass]="{'fas': i <= g.rate,
+                'far' : i > g.rate }" class="fa-star"></i>
+                </div>
+                <p class="my-2">{{g.comment}}</p>
+                <h4 class="my-2">{{g.name}}</h4>
+            </div>
+        </div>
+    </div>
+</div>

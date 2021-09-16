@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "mealName":"Cake",
+        "price":11,
+        "description":"Modern cheesecake is not usually classified as an actual 'cake', despite the name (compare with Boston 'pie').",
+        "img":"menu-1.jpg"
+    },
+    {
+        "id":2,
+        "mealName":"Pancakes",
+        "price":12,
+        "description":"For those who love simple recipeas and flawors. Enjoy our favourite simple recipe",
+        "img":"menu-2.jpg"
+    },
+    {
+        "id":3,
+        "mealName":"American Pancakes",
+        "price":15,
+        "description":"American pancake recipe makes light and fluffy pancakes that are great for a weekend brunch.",
+        "img":"menu-3.jpg"
+    },
+    {
+        "id":4,
+        "mealName":"Shake",
+        "price":10,
+        "description":"Take a break with our Shakes. Apple, Bannana, Oreo and a lot of other tastes.",
+        "img":"xmenu-8.jpg.pagespeed.ic.SKi4BFuD7n.jpg"
+    },
+    {
+        "id":5,
+        "mealName":"Grilled Crab with Onion",
+        "price":50,
+        "description":"For those who like to try something new, exotic.",
+        "img":"xmenu-4.jpg.pagespeed.ic.J1DK9DwZq_.jpg"
+    },
+    {
+        "id":6,
+        "mealName":"Fish",
+        "price":20,
+        "description":"Fish with vegetables is always a good and health choice",
+        "img":"xmenu-5.jpg.pagespeed.ic.5PXhYr6M8E.jpg"
+    }
+]

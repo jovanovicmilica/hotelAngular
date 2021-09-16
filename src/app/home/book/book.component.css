@@ -1,0 +1,18 @@
+.reservation{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(182, 145, 0, 0.8);
+    bottom: 100px;
+}
+.reservationBlok input,select{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+.reservationBlok button{
+    width: 100%;
+    background-color: #000;
+    border: none;
+    height: 100%;
+    color: #fff;
+}

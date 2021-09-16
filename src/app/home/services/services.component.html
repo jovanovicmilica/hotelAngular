@@ -1,0 +1,13 @@
+
+<div class="homeContent mx-auto text-center mt-5">
+    <div class="heading">
+        <h2>WELCOME TO ROXANDREA HOTEL</h2>
+        <p>A New Vision of Luxury Hotel</p>
+    </div>
+    <div class="services d-flex flex-wrap justify-content-between mt-5">
+        <div class="servic p-4" *ngFor="let s of services">
+            <p><i class="{{s.icon}}"></i></p>
+            <p class="mt-3">{{s.title}}</p>
+        </div>
+    </div>
+</div>

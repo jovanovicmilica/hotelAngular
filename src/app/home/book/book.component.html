@@ -1,0 +1,29 @@
+<div class="reservation d-flex justify-content-around flex-wrap py-3">
+    <div class="col-2 reservationBlok bg-white px-2 py-3">
+        <p>Check-in date</p>
+        <input type="date" placeholder="Check-in date">
+    </div>
+    <div class="col-2 reservationBlok bg-white px-2 py-3">
+        <p>Check-out date</p>
+        <input type="date" placeholder="Check-out date">
+    </div>
+    <div class="col-2 reservationBlok bg-white px-2 py-3">
+        <p>Room</p>
+        <select>
+            <option *ngFor="let r of rooms" value="{{r.id}}">{{r.name}}</option>
+        </select>
+    </div>
+    <div class="col-2 reservationBlok bg-white px-2 py-3">
+        <p>Guests</p>
+        <select>
+            <option value="1">1</option>
+            <option value="1">2</option>
+            <option value="1">3</option>
+            <option value="1">4</option>
+            <option value="1">5</option>
+        </select>
+    </div>
+    <div class="col-2 reservationBlok">
+        <button>Book</button>
+    </div>
+</div>

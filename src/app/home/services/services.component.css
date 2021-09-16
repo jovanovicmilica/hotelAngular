@@ -1,0 +1,18 @@
+
+.homeContent{
+    width: 90%;
+}
+.services div{
+    background-color: #e2e2e2;
+}
+.services div p{
+    margin: 0px;
+    font-size: 20px;
+}
+.services div i{
+    color: rgba(182, 145, 0, 0.8);
+    font-size: 30px;
+}
+.services .servic{
+    width: 18%;
+}

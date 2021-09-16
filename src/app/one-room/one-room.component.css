@@ -1,0 +1,9 @@
+ul{
+    list-style-type: none;
+}
+.oneRoom{
+    width: 90%;
+}
+.oneRoom i{
+    font-size: 30px;
+}

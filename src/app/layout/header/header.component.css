@@ -1,0 +1,29 @@
+.header ul li a{
+    color: #fff;
+}
+ul li{
+    list-style-type: none;
+}
+.imageHeader{
+    height: 510px;
+}
+.headerText{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+}
+.headerText h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.headerText p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.headerImage img{
+    height: 510px;
+}
+.header-color{
+    background-color: rgba(182, 145, 0, 0.8);
+}

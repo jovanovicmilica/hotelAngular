@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.rates i,.rate i{
+    color: #b69100;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav a{
+    font-size: 20px;
+}

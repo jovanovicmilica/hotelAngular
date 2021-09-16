@@ -1,0 +1,24 @@
+<div class="header">
+    <div class="d-flex justify-content-around align-items-center fixed-top nav">
+        <div class="col-4">
+            <a [@LogoShow] routerLink="/" class="logo text-white text-decoration-none">ROXANDREA</a>
+        </div>
+        <div class="col-6">
+            <ul class="d-flex justify-content-around align-items-center pt-3">
+                
+                <li *ngFor="let nav of navigation">
+                    <a routerLink="{{nav.path}}" class="page-scroll">{{nav.name }}</a>
+                  </li>
+            </ul>
+        </div>
+    </div>
+    <div class="imageHeader">
+        <div class="headerImage">
+            <img src="../../../assets/images/xbg_2.jpg.pagespeed.ic.k-IUR3VUJG.jpg" alt="">
+            <div class="headerText">
+                <h1>Roxandrea</h1>
+                <p>More than a hotel</p>
+            </div>
+        </div>
+    </div>
+</div>

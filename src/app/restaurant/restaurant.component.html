@@ -1,0 +1,14 @@
+<div class="restaurant d-flex flex-wrap justify-content-between  p-3">
+    <div class="col-12 text-center py-5">
+        <h2>Restaurant</h2>
+    </div>
+    <div class="col-5 d-flex flex-wrap my-3" *ngFor="let r of restaurant">
+        <div class="content col-7 text-end ">
+            <p><span class="price">$ {{r.price | pipeTransform}}</span> {{r.mealName | uppercase}}</p>
+            <p>{{r.description}}</p>
+        </div>
+        <div class="image col-4 mx-3">
+            <img class="rounded-circle" src="../../assets/images/{{r.img}}" alt="">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "title": "Friendly Service",
+        "icon": "fas fa-concierge-bell"
+    },
+    {
+        "id":2,
+        "title": "Get Breakfast",
+        "icon": "fas fa-utensils"
+    },
+    {
+        "id":3,
+        "title": "Suits & SPA",
+        "icon": "fas fa-spa"
+    },
+    {
+        "id":4,
+        "title": "Transfer Services",
+        "icon": "fas fa-bus"
+    },
+    {
+        "id":5,
+        "title": "Cozy Rooms",
+        "icon": "fas fa-bed"
+    }
+]

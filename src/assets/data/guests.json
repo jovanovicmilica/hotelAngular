@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Alex Doe",
+        "rate" : 5,
+        "img":"xperson_1.jpg.pagespeed.ic.P4pHl6glbj.jpg",
+        "comment": "Pleasant atmosphere and ambience, wonderful cuisine and service"
+    },
+    {
+        "id": 2,
+        "name": "John Gomez",
+        "rate" : 4,
+        "img":"xperson_2.jpg.pagespeed.ic.yyrmjBH91b.jpg",
+        "comment": "Great place for a family. Comfortable and cozy rooms. Adding a baby program would be great"
+    },
+    {
+        "id": 4,
+        "name": "Adam Smith",
+        "rate" : 5,
+        "img":"person_3.jpg",
+        "comment": "Amazyng. Great location, see you again soon"
+    }
+
+]

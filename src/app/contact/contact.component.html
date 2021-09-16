@@ -1,0 +1,42 @@
+<div class="contact p-5">
+    <form [formGroup]="form" (ngSubmit)="save()" >
+    <h1>Contact informations</h1>
+    <div class="my-5 d-flex flex-wrap justify-content-between">
+        <div class="form-group col-6 px-3 mt-3">
+            <label>First Name</label>
+            <input matInput formControlName="firstName" class="form-control">
+            <p class="help-block text-danger" *ngIf="form.controls['firstName'].hasError('required')">This field is required</p>
+        </div>
+        <div class="form-group col-6 px-3 mt-3">
+            <label>Last Name</label>
+            <input matInput formControlName="lastName" class="form-control">
+            <p class="help-block text-danger" *ngIf="form.controls['lastName'].hasError('required')">This field is required</p>
+        </div>
+        <div class="form-group col-6 px-3 mt-3">
+            <label>Email</label>
+            <input matInput formControlName="email" class="form-control">
+            <p class="help-block text-danger" *ngIf="form.controls['email'].hasError('email')">Vrite real E-mail format</p><p class="help-block text-danger" *ngIf="form.controls['email'].hasError('required')">This field is required</p>
+        </div>
+        <div class="form-group col-6 px-3 mt-3">
+            <label>Phone</label>
+            <input matInput formControlName="phone" class="form-control">
+            <p class="help-block text-danger" *ngIf="form.controls['phone'].hasError('required')">Phone has 9 digits minimum, 10 maximum </p>
+        </div>
+        <div class="form-group col-12 px-3 mt-3">
+            <label>Message</label>
+            <textarea matInput formControlName="message" class="form-control"></textarea>
+            <p class="help-block text-danger" *ngIf="form.controls['message'].hasError('required')">This field is required</p>
+        </div>
+
+        <div class=" px-3 mt-3">
+            <button type="submit" class="btn" [disabled]="!form.valid">Send Message</button>
+        </div>
+        <div id="success" *ngIf="mess[0]" class="col-12 px-3 mt-3">
+            <p class="text-success">{{mess[0].firstName}} {{mess[0].lastName}}, you have successfuly sent message : {{mess[0].message}}.</p>
+            <p class="text-success"> Your E-mail: {{mess[0].email}}, Phone Number: 
+            {{mess[0].phone}}.</p>
+            <p class="text-success"> We will contact you soon. Thanks for contacting us!</p>
+        </div>
+    </div>
+</form>
+</div>

@@ -1,0 +1,14 @@
+
+.homeRooms{
+    background-color: #ececec;
+}
+.roomDesign{
+    flex-direction: row-reverse;
+}
+.rooms{
+    width: 90%;
+}
+.rooms a{
+    color: rgba(182, 145, 0, 0.8);
+    font-weight: bold;
+}

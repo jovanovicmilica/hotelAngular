@@ -1,0 +1,10 @@
+.restaurant{
+    background-image: url(../../assets/images/restaurant-pattern.jpg);
+}
+.restaurant span{
+    margin-right: 25px;
+}
+.price{
+    color: rgba(182, 145, 0, 0.8);
+    font-weight: bold;
+}

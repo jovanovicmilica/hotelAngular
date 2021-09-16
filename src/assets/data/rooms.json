@@ -1,0 +1,79 @@
+[
+    {
+        "id":1,
+        "name": "Luxury Room",
+        "description": "Our Deluxe Twin/Large Double also provides views over landscaped gardens. It has a seating area, digital safe, minibar and luxurious duck down bedding. This room can be configured with either 2 single beds or zip and linked to provide a large double bed.",
+        "price": 300,
+        "rate" : 5,
+        "numberOfRooms": 10,
+        "view":"Sea view",
+        "beds": 1,
+        "max" : 2,
+        "size" : 90,
+        "image": "xroom-1.jpg.pagespeed.ic.j7_gUsbfiW.jpg"
+    },
+    {
+        "id":2,
+        "name": "Familly Room",
+        "description": "Our Familly Room has a seating area, ample storage, digital safe, minibar and luxurious duck down bedding. This room can also be configured with an extra roll-away bed for families of 4.",
+        "price": 400,
+        "rate" : 4,
+        "numberOfRooms": 20,
+        "view":"Sea view",
+        "beds": 3,
+        "max" : 4,
+        "size" : 80,
+        "image": "xroom-3.jpg.pagespeed.ic.1_fVN4GKrT.jpg"
+    },{
+        "id":3,
+        "name": "Superior Room",
+        "description": "These Junior Suites provide a spectacular view over Kensington Gardens alongside beautiful Hyde Park. Some have four-poster beds for relaxation in unique and inimitable style..",
+        "price": 250,
+        "rate" : 5,
+        "numberOfRooms": 10,
+        "view":"Sea view",
+        "beds": 1,
+        "max" : 2,
+        "size" : 80,
+        "image": "xroom-4.jpg.pagespeed.ic.2DpthT_oqM.jpg"
+    },
+    {
+        "id":4,
+        "name": "Family Junior Room",
+        "description": "An indulgent retreat from San Francisco's exciting 24-hour culture. Stay in this elegant and comfortable Family Junior Suite with your loved ones and enjoy fully your Italian home in Kensington. The Suite offers spacious wardrobes, reviving Illy espresso machine, sumptuous marble bathroom and handmade brass inks from Sicily.",
+        "price": 350,
+        "rate" : 4,
+        "numberOfRooms": 10,
+        "view":"Big balcon",
+        "beds": 4,
+        "max" : 4,
+        "size" : 80,
+        "image": "xroom-5.jpg.pagespeed.ic.iMt5ZHZu93.jpg"
+    },
+    {
+        "id":5,
+        "name": "President Room",
+        "description": "With our pride & honour The Presidential Suite, you and members of your family are able to enjoy a truly magnificent stay in this hotel. An entire quarter half of the floor just for you, this extremely spacious suite is like a little house of its own.",
+        "price": 450,
+        "rate" : 5,
+        "numberOfRooms": 3,
+        "view":"Sea view",
+        "beds": 1,
+        "max" : 2,
+        "size" : 120,
+        "image": "xroom-6.jpg.pagespeed.ic.O7K5uoi5FB.jpg"
+    },
+    {
+        "id":6,
+        "name": "One-Bed Room",
+        "description": "One-bedroom suite with separate living room and full and half Carrara marble bathrooms. Stylish suite with sweeping views of Central Park and Sixth Avenue, and a telescope to take it all in.",
+        "price": 200,
+        "rate" : 4,
+        "numberOfRooms": 5,
+        "view":"Park view",
+        "beds": 3,
+        "max" : 4,
+        "size" : 80,
+        "image": "xroom-2.jpg.pagespeed.ic.RWk6y2cGAc.jpg"
+    }
+]

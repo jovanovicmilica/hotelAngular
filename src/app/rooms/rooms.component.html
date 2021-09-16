@@ -1,0 +1,16 @@
+<div class="rooms d-flex  flex-wrap mx-auto mt-5">
+        <div class="col-6 d-flex flex-wrap my-3" *ngFor="let r of rooms">
+            <div class="imageRoom col-6">
+                <img src="../../../assets/images/{{r.image}}" alt="">
+            </div>
+            <div class="roomInfo col-6 p-3">
+                <div class="rate">
+                    <i *ngFor="let i of numbers" [ngClass]="{'fas': i <= r.rate,
+                'far' : i > r.rate }" class="fa-star"></i>
+                </div>
+                <p>$ {{r.price | pipeTransform}} per night</p>
+                <h3>{{r.name}}</h3>
+                <a routerLink="/rooms/{{r.id}}">Details</a>
+            </div>
+        </div>
+    </div>
